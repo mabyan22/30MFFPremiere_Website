@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>30MFF Premiere</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1><a href="#home">30MFF Premiere</a></h1>
+            <ul>
+                <li><a href="#movie"><i class="fas fa-video icon"></i>Movie</a></li>
+                <li><a href="#about"><i class="fas fa-info-circle icon"></i>About</a></li>
+                <li><a href="#project"><i class="fas fa-project-diagram icon"></i>Project</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope icon"></i>Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="section">
+        <div class="slider">
+            <button id="prev" class="arrow" onclick="changeSlide(-1)"></button>
+            <div class="slides">
+                <img src="./images/image1.jpeg" alt="Image 1 description">
+            </div>
+            <div class="slides">
+                <img src="./images/image2.jpg" alt="Image 2 description">
+            </div>
+            <div class="slides">
+                <img src="./images/image3.jpeg" alt="Image 3 description">
+            </div>
+            <button id="next" class="arrow" onclick="changeSlide(1)"></button>
+        </div>
+    </section>
+
+    <section id="movie" class="section">
+        <div class="movie-container">
+            <div class="movie-details">
+                <h2>Movie</h2>
+                <h3>The Structure Behind Art</h3>
+            </div>
+            <div class="movie-trailer">
+                <iframe src="https://drive.google.com/file/d/1f6PRkh2VEyh4QcQ7l8SjafDDC6JHGDBX/preview" width="640" height="360" allow="autoplay; encrypted-media; fullscreen" allowfullscreen></iframe>            </div>
+        </div>
+    </section>       
+    
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <div class="image-container">
+                <img src="./images/image5.JPG" alt="Your Image">
+            </div>
+            <div class="text-container">
+                <h3>Muhammad Ahmed</h3>
+                <p>I am a freshman at NYU Abu Dhabi majoring in Computer Science. I am passionate about sports, coding and many other things, including video editing!</p>
+            </div>
+        </div>
+    </section>    
+
+    <section id="project" class="section">
+        <h2>Project: 30MFF Video</h2>
+        <div class="project-container">
+            <div class="project-description">
+                <p>This video was recorded in and around the arts center (building C3) located in New York University Abu Dhabi. The arts center is the building where performers and artists from all over the world come to display their talents. The movie attempts to capture the inherent structures, frameworks and patterns that lay the foundation of all the free and abstract expression of art going on inside the building. The scenes were filmed inside, and in the vicinity of the building, around daytime, when the arts center is the least busiest. </p>
+            </div>
+        </div>
+    </section>    
+
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p>Contact info...</p>
+    </section>
+
+    <footer>
+        <p>By Muhammad Ahmed</p>
+    </footer>
+</body>
+
+</html>
