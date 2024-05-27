@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- code for the header and links to other scripts -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,9 +11,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 
+<!-- code for the body -->
 <body>
     <header>
         <nav>
+            <!-- navigation bar -->
             <h1><a href="#home">30MFF Premiere</a></h1>
             <ul>
                 <li><a href="#movie"><i class="fas fa-video icon"></i>Movie</a></li>
@@ -23,6 +26,7 @@
         </nav>
     </header>
 
+    <!-- image slideshow -->
     <section id="home" class="section">
         <div class="slider">
             <button id="prev" class="arrow" onclick="changeSlide(-1)"></button>
@@ -39,6 +43,7 @@
         </div>
     </section>
 
+    <!-- displaying the movie -->
     <section id="movie" class="section">
         <div class="movie-container">
             <div class="movie-details">
@@ -50,6 +55,7 @@
         </div>
     </section>       
     
+    <!-- displaying the about section -->
     <section id="about" class="section">
         <h2>About Me</h2>
         <div class="about-container">
@@ -63,20 +69,33 @@
         </div>
     </section>    
 
+    <!-- project details -->
     <section id="project" class="section">
         <h2>Project: 30MFF Video</h2>
         <div class="project-container">
             <div class="project-description">
-                <p>This video was recorded in and around the arts center (building C3) located in New York University Abu Dhabi. The arts center is the building where performers and artists from all over the world come to display their talents. The movie attempts to capture the inherent structures, frameworks and patterns that lay the foundation of all the free and abstract expression of art going on inside the building. The scenes were filmed inside, and in the vicinity of the building, around daytime, when the arts center is the least busiest. </p>
+                <p>This video was recorded in and around the Arts Center (building C3) located in New York University Abu Dhabi. The arts center is the building where performers and artists from all over the world come to display their talents. The movie attempts to capture the inherent structures, frameworks and patterns that lay the foundation of all the free and abstract expression of art going on inside the building. The scenes were filmed inside, and in the vicinity of the building, around daytime, when the arts center is the least busiest. </p>
             </div>
         </div>
     </section>    
 
+    <!-- contact links -->
     <section id="contact" class="section">
         <h2>Contact</h2>
-        <p>Contact info...</p>
+        <div class="contact-container">
+            <a href="https://www.instagram.com/fcbarcelona" target="_blank" class="contact-icon"> <!--random account as I don't have an instagram -->
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="mailto:ma8145@nyu.edu" class="contact-icon">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <a href="https://www.facebook.com/muhammadahmedabyan" target="_blank" class="contact-icon">
+                <i class="fab fa-facebook"></i>
+            </a>
+        </div>
     </section>
 
+    <!-- code for the footer -->
     <footer>
         <p>By Muhammad Ahmed</p>
     </footer>
